@@ -42,6 +42,7 @@ dependencies {
 
     "common"(project(":common", "namedElements")) { isTransitive = false }
     "shadowBundle"(project(":common", "transformProductionNeoForge"))
+    modApi("dev.corgitaco:Data_Anchor-neoforge-$minecraftVersion:${project.properties["data_anchor_version"]}")
 }
 
 tasks {

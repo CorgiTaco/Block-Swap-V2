@@ -1,4 +1,4 @@
-package com.example.examplemod.fabric.datagen;
+package dev.corgitaco.blockswap.fabric.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

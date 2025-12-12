@@ -37,6 +37,7 @@ dependencies {
 
     "common"(project(":common", "namedElements")) { isTransitive = false }
     "shadowBundle"(project(":common", "transformProductionFabric"))
+    modApi("dev.corgitaco:Data_Anchor-fabric-$minecraftVersion:${project.properties["data_anchor_version"]}")
 }
 
 tasks {

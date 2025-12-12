@@ -50,6 +50,7 @@ dependencies {
 
     "common"(project(":common", "namedElements")) { isTransitive = false }
     "shadowBundle"(project(":common", "transformProductionForge"))
+    modApi("dev.corgitaco:Data_Anchor-forge-$minecraftVersion:${project.properties["data_anchor_version"]}")
 }
 
 tasks {

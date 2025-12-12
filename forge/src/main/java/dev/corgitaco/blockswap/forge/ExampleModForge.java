@@ -1,14 +1,14 @@
-package com.example.examplemod.forge;
+package dev.corgitaco.blockswap.forge;
 
-import com.example.examplemod.ExampleMod;
+import dev.corgitaco.blockswap.BlockSwap;
 import net.minecraftforge.fml.common.Mod;
 
 /**
  * Main class for the mod on the Forge platform.
  */
-@Mod(ExampleMod.MOD_ID)
+@Mod(BlockSwap.MOD_ID)
 public class ExampleModForge {
     public ExampleModForge() {
-        ExampleMod.init();
+        BlockSwap.init();
     }
 }
